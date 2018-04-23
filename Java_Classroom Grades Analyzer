@@ -10,11 +10,14 @@ public int getAverage(ArrayList <Integer> grades){
     return 0;
   }else{
    int sum = 0;
- //Create a for each block that iterates through each grade in the grades ArrayList.  
+   
+ //Create a for each block that iterates through each grade in the grades ArrayList.
+ 
   for (Integer grade: grades){
     sum = sum + grade;
   }
    //Outside of the for each loop, calculate the average of the grades. Create an int called average and set it equal to the sum divided by the size of grades.
+   
  int average = sum / grades.size();
   System.out.println("The Average is "+ average+".");
   return average;   
