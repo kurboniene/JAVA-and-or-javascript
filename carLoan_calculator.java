@@ -24,7 +24,5 @@ public class CarLoan {
     
     System.out.println(monthlyPayment);
   }
-        
-    
-	}
-}
+  }
+  }
